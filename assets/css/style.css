@@ -1,6 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Titillium+Web&display=swap');
 
+/* body styling */
+
 body {
     font-family: Titillium Web, sans-serif;
-    margin: 0 30px;
+    color: #222219; /* main color */
+    margin: 0 30px;    
+}
+
+/* headings styling */
+
+h1, h2, h3 {
+    font-family: Dosis, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #153B4D; /* squash pallete */
+    text-align: center;
+}
+
+/* logo and menu styling */
+
+#menu h1 {
+    font-size: 240%;    
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu ul {        
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 3px;    
+}
+
+#menu li {
+    list-style-type: none;
+    display: inline;
+    background-color: #00C9B0; /* twisted spot Palette */
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 5px;   
+}
+
+#menu ul a {    
+    color: #222219;
+}
+
+#menu ul li:hover {    
+    background-color: #F1EAE2;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #153B4D;
+}
+
+.active {
+    border: 2px solid #153B4D;
 }
