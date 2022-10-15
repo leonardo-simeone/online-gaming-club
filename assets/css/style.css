@@ -89,3 +89,48 @@ div #overlay {
     background-color: rgba(241, 234, 226, 0.9);
     border-radius: 15px;  
 }
+
+/* welcome section and games we play section */
+
+hr {
+    border: 1px solid #222219;
+    margin: 30px 5px;
+}
+
+.image-text-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid #222219;
+    border-radius: 15px;    
+    align-items: center;    
+    background-color: #F1EAE2;
+}
+
+.image-text-container img {
+    max-width: 50%;
+    min-height: 50%;
+    border-radius: 15px;
+}
+
+.image-text-container p {
+    flex: 1;
+    text-align: justify;
+    font-size: 230%;
+    line-height: 1.5em;
+    max-width: 50%;
+    min-height: 50%;
+    padding: 0 15px 0 15px;
+}
+
+#games {    
+    height: 75px;
+    background-color: #F1EAE2;
+    border: 1px solid #222219;
+    border-radius: 15px; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 15px;
+    font-size: 150%;   
+}
