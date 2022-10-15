@@ -124,14 +124,12 @@ hr {
     padding: 0 15px 0 15px;
 }
 
-#games {    
-    height: 75px;
+#games {
     background-color: #F1EAE2;
     border: 1px solid #222219;
     border-radius: 15px; 
     margin-top: 10px;
-    margin-bottom: 20px;
-    line-height: 15px;
+    margin-bottom: 20px;    
     font-size: 150%;   
 }
 
@@ -174,4 +172,48 @@ footer ul li {
 
 footer a {
     color: #222219;
+}
+
+/* about-us styling */
+
+#about {    
+    height: 300px;
+    text-align: center;
+    font-size: 200%;
+    margin: 0 auto;
+    display: inline;
+    line-height: 65px;
+}
+
+.all-headings { /* about-us, timetable and join-us pages headings styling */
+    height: 75px;
+    background-color: #F1EAE2;
+    border-radius: 15px;
+    line-height: 75px;
+    margin-bottom: 20px;
+}
+
+.headings-size-margins { /* about-us, timetable and join-us pages headings font size and margins */
+    font-size: 220%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#about p {
+    text-align: justify;
+    font-size: 100%;
+    padding: 30px;
+    background-color: #F1EAE2;
+    border-radius: 15px;
+    margin: 20px 0 0;
+}
+
+#video h3 {
+    font-size: 180%;    
+    text-align: center;
+    background-color: #F1EAE2;
+    height: auto;
+    line-height: 75px;
+    border-radius: 10px;
+    padding: 5px;
 }
