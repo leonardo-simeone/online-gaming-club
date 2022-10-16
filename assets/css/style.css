@@ -240,3 +240,58 @@ footer a {
     height: 100%;
     border-radius: 10px;
  }
+
+ /* timetable page styling */
+
+#games-timetable {    
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.tables-display {
+    display: flex;
+    flex-direction: row;    
+    align-items: normal;
+    height: 450px;
+}
+
+.timetable table, .timetable td {
+    text-align: center;
+    border: 1px solid #153B4D;
+    border-collapse: collapse;
+}
+
+.timetable td {
+    padding: 5px;
+    font-size: 100%;
+}
+
+.table-size {
+    width: 80%;
+    height: 80%;
+    margin: 45px auto;
+}
+
+#wow {    
+    background-color: rgba(122, 181, 182, .5); /* #7AB5BA dotting pallete */    
+    font-size: 145%;
+    flex: 1;
+}
+
+#cs-go {
+    font-size: 145%;
+    background-color: rgba(172, 172, 160, .5); /* #ACACA0 friend pallete */
+    flex: 1;
+}
+
+#lol {   
+    background-color: rgba(255, 199, 161, .5); /* #FFC7A1 skip shade gradient */
+    font-size: 145%;
+    flex: 1;
+}
+
+#albion {   
+    background-color: rgba(231, 131, 96, .5); /* #E78360 skip gradient */
+    font-size: 145%;
+    flex: 1;
+}
