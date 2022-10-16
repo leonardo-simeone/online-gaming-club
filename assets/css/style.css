@@ -294,3 +294,101 @@ footer a {
     font-size: 145%;
     flex: 1;
 }
+
+/* form page styling */
+
+#form-section {
+    clear: both;
+    background: url(../images/form-page-image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.form-font-color {
+    color: #F1EAE2;
+}
+
+#data-days-form {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;    
+}
+
+.checkboxes {
+    line-height: 22px;
+}
+
+.text-input {
+    width: 100%;
+    margin: 5px 0 20px;
+}
+
+.text-input:hover {
+    border-color: #00C9B0;
+}
+
+#data {
+    flex: 1;    
+}
+
+#data form {
+    width: 40%;
+    height: 80%;
+    margin: 0;
+}
+
+#days {        
+    margin-right: 6px;        
+}
+
+#days form {
+    width: 100%;
+    height: 80%;    
+    margin-right: 7px;    
+}
+
+#game-time-form {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap;    
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#game {
+    flex: 1.5;    
+}
+
+.form-paragraph{
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+#join {
+    text-align: center;
+    margin-top: 50px;    
+}
+
+.action {
+    font-size: 200%;
+    background-color: #F1EAE2;
+    border-radius: 5px;
+    border: 2px solid #222219;
+}
+
+.action:hover{
+    background-color: #222219;
+    color: #F1EAE2;
+    border: 2px solid #153B4D;
+}
+
+#clear {
+    margin-top: 10px;
+}

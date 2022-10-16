@@ -32,30 +32,30 @@
         <div class="all-headings">
             <h2 class="headings-size-margins">Join the fun! <i class="fa-solid fa-computer"></i></h2>
         </div>
-        <div>            
-            <div>
-                <div>
+        <div id="form-section">            
+            <div id="data-days-form" class="form-font-color">
+                <div id="data">
                     <form action="https://formdump.codeinstitute.net/" method="POST">
                         <div>
                             <label for="fname">First Name</label>
-                            <input id="fname" type="text" name="first_name"
+                            <input class="text-input" id="fname" type="text" name="first_name"
                                 placeholder="Enter your First Name" required>
                         </div>
                         <div>
                             <label for="lname">Last Name</label>
-                            <input id="lname" type="text" name="last_name"
+                            <input class="text-input" id="lname" type="text" name="last_name"
                                 placeholder="Enter your Last Name" required>
                         </div>
                         <div>
                             <label for="email">Email Address</label>
-                            <input id="email" type="email" name="email_address"
+                            <input class="text-input" id="email" type="email" name="email_address"
                                 placeholder="Enter your Email Address" required>
                         </div>
                     </form>
                 </div>
-                <div>
+                <div id="days">
                     <form action="https://formdump.codeinstitute.net/" method="POST" class="checkboxes">
-                        <p>Day(s) to Play</p>
+                        <p class="form-paragraph">Day(s) to Play</p>
                         <div>
                             <input type="checkbox" name="monday" id="monday-checkbox">
                             <label for="monday-checkbox">Monday</label>
@@ -87,10 +87,10 @@
                     </form>
                 </div>
             </div>
-            <div>
-                <div>
-                    <form action="https://formdump.codeinstitute.net/" method="POST">
-                        <p>Games you like</p>
+            <div id="game-time-form" class="form-font-color">
+                <div id="game">
+                    <form action="https://formdump.codeinstitute.net/" method="POST" class="checkboxes">
+                        <p class="form-paragraph">Games you like</p>
                         <div>
                             <input type="checkbox" name="play-wow" id="play-wow-checkbox">
                             <label for="play-wow-checkbox">World of Warcraft</label>
@@ -109,9 +109,9 @@
                         </div>
                     </form>
                 </div>
-                <div>
+                <div id="time">
                     <form action="https://formdump.codeinstitute.net/" method="POST" class="checkboxes">
-                        <p>Time(s) to Play</p>
+                        <p class="form-paragraph">Time(s) to Play</p>
                         <div>
                             <input type="checkbox" name="quarter-one" id="quarter-one-checkbox">
                             <label for="quarter-one-checkbox">00:00 - 06:00</label>
@@ -131,10 +131,10 @@
                     </form>
                 </div>
             </div>
-            <div>
-                <input type="submit" value="Join Us">
+            <div id="join">
+                <input type="submit" value="Join Us" class="action">
                 <br>
-                <input type="reset" value="Clear Form">
+                <input id="clear" type="reset" value="Clear Form" class="action">
             </div>
         </div>
     </section>
