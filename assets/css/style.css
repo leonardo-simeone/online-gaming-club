@@ -255,15 +255,14 @@ footer a {
     height: 450px;
 }
 
-.timetable table, .timetable td {
+.tables-display table, .tables-display td {
     text-align: center;
     border: 1px solid #153B4D;
     border-collapse: collapse;
 }
 
-.timetable td {
-    padding: 5px;
-    font-size: 100%;
+.tables-display td {
+    padding: 5px;    
 }
 
 .table-size {
