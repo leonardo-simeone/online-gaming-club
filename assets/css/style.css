@@ -484,3 +484,78 @@ footer a {
         width: 50%;            
     }
 }
+
+/* media queries for tablets and medium size screens */
+
+@media screen and (max-width:1024px) {
+    #menu h1{
+        flex: none;
+        font-size: 150%;
+    }
+
+    #menu ul {
+        flex: none;            
+        letter-spacing: 1.5px;
+        padding: 0;            
+    }
+
+    #menu li {            
+        padding: 3.5px;
+    }
+
+    #welcome-p {
+        font-size: 130%;
+    }
+    
+    .image-text-container p {
+        font-size: 109%;
+    }
+
+    footer ul li {            
+        margin: 50px;
+        font-size: 160%;
+    }
+        
+    #about p {        
+        font-size: 85%;
+        padding: 25px;
+        line-height: 38px;
+    }
+
+    .headings-size-margins {            
+        font-size: 180%;            
+    }
+
+    #video h3 {            
+        font-size: 130%;
+    }
+
+    #wow, #cs-go, #lol, #albion {
+        font-size: 120%;
+    }
+
+    #data form {
+        width: 60%;            
+    }
+}
+
+@media screen and (max-width:907px) {
+    #welcome-p {
+        font-size: 110%;
+    }
+}
+
+@media screen and (min-width:768px) {
+   .logo-menu-margins {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    footer {
+        margin-bottom: 30px;
+    }
+
+    footer h3 {
+        font-size: 150%;
+    }
+}
