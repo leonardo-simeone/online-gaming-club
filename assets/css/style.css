@@ -177,12 +177,18 @@ footer a {
 /* about-us styling */
 
 #about {    
-    height: 300px;
-    text-align: center;
+    height: 300px;    
     font-size: 200%;
     margin: 0 auto;
-    display: inline;
-    line-height: 65px;
+    display: inline;    
+}
+
+#about p {
+    text-align: justify;    
+    padding: 30px;
+    background-color: #F1EAE2;
+    border-radius: 15px;
+    margin: 20px 0 0;
 }
 
 .all-headings { /* about-us, timetable and join-us pages headings styling */
@@ -196,16 +202,7 @@ footer a {
 .headings-size-margins { /* about-us, timetable and join-us pages headings font size and margins */
     font-size: 220%;
     margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-#about p {
-    text-align: justify;
-    font-size: 100%;
-    padding: 30px;
-    background-color: #F1EAE2;
-    border-radius: 15px;
-    margin: 20px 0 0;
+    margin-bottom: 10px; 
 }
 
 #video h3 {
@@ -391,4 +388,99 @@ footer a {
 
 #clear {
     margin-top: 10px;
+}
+
+/* Media Queries */
+
+/* media queries for laptops and desktops including big screens */
+
+@media screen and (min-width:1601px) {
+    .image-text-container p {
+        font-size: 252%;
+    }
+    #welcome-p {
+        font-size: 254%;
+    }
+
+    .timetable td {            
+        font-size: 112%;
+    }
+}
+
+@media screen and (min-width:1470px) {        
+
+    #games h2 {            
+        font-size: 220%;
+        line-height: 110px;
+        margin: 0 auto;
+    }        
+
+    #about p {
+        line-height: 65px;
+    }
+
+    #wow, #cs-go, #lol, #albion {
+        font-size: 150%;
+    }
+
+    #data form {
+        width: 30%;            
+    }
+    
+    footer ul li {
+        margin: 120px;
+    }
+}
+
+@media screen and (max-width:1470px) {
+
+    .image-text-container p {
+        font-size: 178%;
+    }
+    #welcome-p {
+        font-size: 180%;
+    }
+
+    #video h3 {        
+        font-size: 150%;
+    }
+}
+
+@media screen and (max-width:1170px) { 
+    
+    #menu ul {                
+        font-size: 15px;            
+    }
+
+    .image-text-container p {
+        font-size: 130%;
+    }
+    #welcome-p {
+        font-size: 140%;
+    }
+
+    #games {        
+        font-size: 120%;
+    }        
+
+    #about p {        
+        font-size: 90%;        
+        line-height: 45px;
+    }
+
+    .headings-size-margins {            
+        font-size: 200%;            
+    }
+
+    #video h3 {        
+        font-size: 150%;            
+    }
+
+    #wow, #cs-go, #lol, #albion {
+        font-size: 140%;
+    }
+
+    #data form {
+        width: 50%;            
+    }
 }
