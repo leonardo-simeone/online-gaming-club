@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Titillium+Web&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* body styling */
 
 body {
@@ -410,7 +414,7 @@ footer a {
 @media screen and (min-width:1470px) {        
 
     #games h2 {            
-        font-size: 220%;
+        font-size: 180%;
         line-height: 110px;
         margin: 0 auto;
     }        
