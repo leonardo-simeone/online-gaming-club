@@ -677,3 +677,135 @@ footer a {
         margin-right: 5px;
     }        
 }
+
+/* media queries mobile devices */
+
+@media screen and (max-width:480px) {
+
+    #hero-image {
+        width: 100%;
+        height: 600px;
+        position: relative;
+        background: url(../images/hero-image-2.jpg) no-repeat top center;
+        background-size: cover;
+    }
+
+    div #overlay {
+        width: 150px;
+        height: 150px;
+        padding: 0;
+        top: 120px;
+        left: 10px;            
+    }
+
+    #overlay h2 {
+        font-size: 80%;
+        padding: 5px;
+        margin-top: 13px;
+    }
+
+    #menu h1 {
+        font-size: 130%;
+    }
+
+    #menu li {
+        margin: 5px;
+    }        
+
+    #games {
+        line-height: 42px;
+        font-size: 80%;
+    }
+
+    footer ul li {            
+        margin: 15px;
+        font-size: 130%;
+    }        
+
+    #about p {
+        text-align: center;
+        font-size: 55%;
+        padding: 15px;
+        line-height: 30px;
+    }
+
+    .headings-size-margins {            
+        font-size: 120%;            
+    }    
+
+    #video h3 {
+        font-size: 85%;            
+    }
+
+    #wow, #cs-go, #lol, #albion {
+        font-size: 95%;
+    }        
+
+    #form-section {
+        background: url(../images/form-page-image-2.jpg);
+        background-size: cover;
+        background-position: bottom;
+        padding: 15px;
+    }        
+
+    #data-days-form {            
+        flex-direction: column;
+    }
+
+    #game-time-form {
+        flex-direction: column;
+    }
+
+    #data {
+       width: 90%; 
+    }
+
+    #data form {
+        width: 100%;
+        height: 80%;
+        margin: 0;
+    }
+
+    .color-mobiles {
+        color: #222219;
+    }
+
+    .checkbox-div {
+        width: 80%;
+        margin: 0 0 15px 5vw;
+    }
+
+    .checkboxes {
+        width: 100%;
+        height: 80%;
+        line-height: 25px;
+        font-size: 18px;
+        background-color: rgba(220, 220, 220, .95);
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    #join {
+        text-align: center;
+        margin-top: 20px;    
+    }
+    
+    .action {
+        font-size: 150%;            
+        margin-bottom: 10px;
+    }       
+
+    .form-paragraph {
+        margin-bottom: 0;
+        margin-top: 0;            
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:447px) {
+
+    .image-text-container p {            
+        font-size: 110%;
+        text-align: center;
+    }
+}
