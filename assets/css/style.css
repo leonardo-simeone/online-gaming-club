@@ -559,3 +559,121 @@ footer a {
         font-size: 150%;
     }
 }
+
+/* media queries for tablets and mobile devices screens */
+
+@media screen and (max-width:768px) {
+
+    #menu {
+        flex-direction: column;
+        justify-content: stretch;           
+    }
+
+    #menu ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #menu h1 {
+        margin: 10px 0 0 0;
+        text-align: center;
+        padding: 0;
+    }
+
+    #menu ul a {
+        font-size: 18px;
+        letter-spacing: 6px;
+    }
+
+    #menu li {
+        margin: 5px 45px;
+    }
+
+    #games {        
+        font-size: 100%;
+    }
+
+    #hero-image-container {
+        height: 300px;
+    }
+
+    div #overlay {
+        width: 200px;
+        height: 160px;
+        padding: 0;
+        top: 100px;
+    }
+
+    #overlay h2 {
+        font-size: 100%;
+        padding: 5px;
+        margin-top: 15px;
+
+    }
+
+    .image-text-container {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        width: 100%;            
+    }
+
+    .image-text-container img {
+        max-width: 100%;
+    }
+
+    .image-text-container p {
+        max-width: 100%;
+        font-size: 140%;
+    }
+    
+    footer ul li {            
+        margin: 30px;
+        font-size: 150%;
+    }        
+    
+    #about p {
+        text-align: center;
+        font-size: 70%;        
+    }
+
+    .headings-size-margins {            
+        font-size: 150%;            
+    }
+
+    #video h3 {
+        font-size: 110%;            
+        line-height: 37.5px;            
+    }
+
+    .tables-display {
+        display: flex;
+        flex-direction: column; 
+        height: 900px;           
+    }        
+
+    #wow, #cs-go, #lol, #albion {
+        font-size: 110%;
+    }
+
+    #data-days-form {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #game-time-form {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #data form {
+        width: 72%;            
+    }
+
+    #days {
+        margin-right: 5px;
+    }        
+}
