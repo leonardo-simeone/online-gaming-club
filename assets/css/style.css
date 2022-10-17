@@ -7,7 +7,7 @@ html {
 /* body styling */
 
 body {
-    font-family: Titillium Web, sans-serif;
+    font-family: "Titillium Web", sans-serif;
     color: #222219; /* main color */
     margin: 0 30px;    
 }
@@ -302,8 +302,7 @@ footer a {
     clear: both;
     background: url(../images/form-page-image.jpg);
     background-size: cover;
-    background-position: center;
-    height: 900px;
+    background-position: center;    
     border-radius: 15px;
     padding: 25px;
 }
@@ -338,14 +337,14 @@ footer a {
     flex: 1;    
 }
 
-#data form {
+#data-form {
     width: 40%;
     height: 80%;
     margin: 0;
 }
 
 #days {        
-    margin-right: 6px;        
+    margin-right: 14px;        
 }
 
 #days form {
@@ -374,7 +373,11 @@ footer a {
 
 #join {
     text-align: center;
-    margin-top: 50px;    
+    width: fit-content;
+    margin: 50px auto;
+    background-color: rgba(207, 206, 194, .7); /* #CFCEC2 shades */
+    padding: 3em;
+    border-radius: 15px;    
 }
 
 .action {
@@ -427,7 +430,7 @@ footer a {
         font-size: 150%;
     }
 
-    #data form {
+    #data-form {
         width: 30%;            
     }
     
@@ -484,7 +487,7 @@ footer a {
         font-size: 140%;
     }
 
-    #data form {
+    #data-form {
         width: 50%;            
     }
 }
@@ -538,8 +541,12 @@ footer a {
         font-size: 120%;
     }
 
-    #data form {
+    #data-form {
         width: 60%;            
+    }
+
+    .action {
+        font-size: 180%;
     }
 }
 
@@ -673,13 +680,13 @@ footer a {
         margin-right: 0;
     }
 
-    #data form {
+    #data-form {
         width: 72%;            
     }
-
-    #days {
-        margin-right: 5px;
-    }        
+    
+    .action {
+        font-size: 160%;
+    }
 }
 
 /* media queries mobile devices */
@@ -764,7 +771,7 @@ footer a {
        width: 90%; 
     }
 
-    #data form {
+    #data-form {
         width: 100%;
         height: 80%;
         margin: 0;
@@ -789,9 +796,9 @@ footer a {
         padding: 5px;
     }
 
-    #join {
-        text-align: center;
-        margin-top: 20px;    
+    #join {        
+        margin-top: 20px;
+        padding: 2em;   
     }
     
     .action {
