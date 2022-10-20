@@ -397,6 +397,22 @@ footer a {
     margin-top: 10px;
 }
 
+#thanks {
+    text-align: center;
+}
+
+#thanks div {
+    width: 550px;    
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+#thanks img {
+    max-width: 100%;
+    border-radius: 15px;    
+}
+
 /* Media Queries */
 
 /* media queries for laptops and desktops including big screens */
