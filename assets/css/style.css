@@ -453,6 +453,10 @@ footer a {
     footer ul li {
         margin: 120px;
     }
+
+    #thanks div {
+        height: 700px;                
+    }
 }
 
 @media screen and (max-width:1470px) {
@@ -466,6 +470,10 @@ footer a {
 
     #video h3 {        
         font-size: 150%;
+    }
+
+    #thanks div {
+        width: 450px;                
     }
 }
 
@@ -563,6 +571,14 @@ footer a {
 
     .action {
         font-size: 180%;
+    }
+
+    #thanks div {
+        width: 390px;                
+    }
+
+    #thanks h2 {
+        font-size: 135%;                
     }
 }
 
@@ -703,6 +719,14 @@ footer a {
     .action {
         font-size: 160%;
     }
+
+    #thanks h2 {
+        font-size: 130%;                
+    }
+    
+    #thanks div {
+        width: 290px;                
+    }
 }
 
 /* media queries mobile devices */
@@ -826,6 +850,14 @@ footer a {
         margin-bottom: 0;
         margin-top: 0;            
         text-align: center;
+    }
+
+    #thanks h2 {
+        font-size: 110%;
+    }
+
+    #thanks div {
+        width: 250px;                
     }
 }
 
