@@ -169,5 +169,17 @@
     </footer>
     <!--font awesome script-->
     <script src="https://kit.fontawesome.com/7162a9ebe5.js" crossorigin="anonymous"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("form").submit(function(){
+                if ($('#days .checkboxes div input:checkbox').filter(':checked').length < 1 || $('#game .checkboxes div input:checkbox').filter(':checked').length < 1 || $('#time .checkboxes div input:checkbox').filter(':checked').length < 1){
+                alert("Check at least one box on each section!");
+                return false;
+                }
+            });
+        });
+        </script>
 </body>
+
+</html>
