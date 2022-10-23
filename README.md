@@ -1,108 +1,76 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# ONLINE GAMING CLUB
 
-Welcome Leonardo Simeone,
+Online Gaming Club is a website that seeks to provide a service based on the needs and wants of online video gamers around the world, that would like to join a community where they can enjoy comradery while playing MMO video games they like and in the regions and times that suit them. Gamers quite often find themselves strugling to coordinate times with their own gaming partners, such as their own friends and family given that life gets in the way, whether it's work, school or extra curricular activities, more often than not, one or several things happen to be keeping players from virtually gathering in groups and game away.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Online Gaming Club offers a selection of different MMO video games to choose from, as well as a variety of servers and times from which users can pick and choose according to their own individual needs. Also the user can find a showcase of images and video that motivate online video gamers to join the club. Once a user has selected their preferences and fully filled out the form provided then they will be assigned to a gaming team accordingly.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Responsive Mockup](/documentation/am-i-responsive.JPG)
 
-## Gitpod Reminders
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* __Navigation Bar__
 
-`python3 -m http.server`
+    * The navegation bar is located at the top of the screen and it's centered both vertically and horizontally. It has the logo or club name: ONLINE GAMING CLUB on the left side and the navigation links on the right side.
+    * The logo in any of the pages links back to home as well as the navegation link: Home, and the rest of the navigation links: Games, About Us, TimeTable and Join Us link to different pages of the same site.
+    * The navigation bar was designed to make it easy to read and with a combination of colors that are easy to the eye and create good contrast.
+    * All links in the navigation menu have visual cues regarding where the user currently is on the site, as well as which links are they about to click on, making it easier to navigate.
+    * The navegation menu is identical across all the pages on the site which provides quick navigation learning.
 
-A blue button should appear to click: _Make Public_,
+![Nav Bar](/documentation/nav-bar.JPG)
 
-Another blue button should appear to click: _Open Browser_.
+* __Home Page Hero Image__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    * The hero image was carefully selected to create a sense of enjoyment related to video gaming and at the same time to try and pass a message to the first time user: "we are waiting for you, join in!"
+    * Hovering on top of the hero image is an overlay which provides a brief concept as to what the ONLINE GAMING CLUB is about.
 
-A blue button should appear to click: _Make Public_,
+![Hero Img](/documentation/hero-image-section.JPG)
 
-Another blue button should appear to click: _Open Browser_.
+* __Welcome Section__
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    * In the welcome section, the user is officially introduced to the site with with a compact summary of the site's main purpose and benefits.
+    * This section is accompanied by an image that transmits a happy and enjoyable environment for video gamers.
 
-To log into the Heroku toolbelt CLI:
+![Welcome](/documentation/welcome-section.JPG)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* __Games We Play Section__
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+    * In the games we play section, the user can see right off the bat, which games are currently being played in the club.
+    * This section also offers a brief description of each game as well as an image relevant to the game, mainly their logo.
 
-------
+![Games](/documentation/games-we-play.JPG)
 
-## Release History
+* __Footer__
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    * The footer comprises a simple paragraph with a call to action and an unordered list with all the social media links for the site.
+    * The footer the same as the navegation bar is the same across all pages on the site to allow for easy navigation and simetry across the website.
+    
+![Footer](/documentation/footer-section.JPG)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+* __About Us__
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+    * In the About Us page, a more comprehensive explanation of the ONLINE GAMING CLUB is delivered in a compact paragraph, letting the user know what the club will do to make their gaming experience more enjoyable and team fun oriented and also where in the site and how to join the club.
+    * Also in this section an iframe was including featuring a team up fighting arena in World of Warcraft, by including this iframe, the user has the option to see what they could avail of should they decide to join.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![About Us](/documentation/about-us-section.JPG)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+* __TimeTable__
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+    * The TimeTable page was designed to inform the user what servers and time frames are the games in the club played in.
+    * This timetable indicates the user in detail how, the games, days, times and servers are structured in the gaming groups already formed.
+    * It also informs the user that all times are based on IST (irish standard time).    
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![TimeTable](/documentation/timetable-section.JPG)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+<p>&nbsp;IST Notification:</p>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![TimeTable IST](/documentation/timetable-ist.JPG)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* __Join Us__
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+    * In the Join Us page, the user will find a form that they can fill out to join the club.
+    * The form contains sub-sections which cover the user's full name, email address, which days and times the user is available to play as well as which games and servers the user prefers to play in.
+    * The form was designed to be inviting and an image refering to video gaming technology was used as the form background to complement this approach.
+    * The submit and reset inputs types, feature visual cues to let the user know they are about to click/tap the element.
+    <p>&nbsp;</p>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+![Join Us](/documentation/join-us-section.JPG)
