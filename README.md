@@ -104,7 +104,16 @@ When I researched in [css-tricks.com](https://css-tricks.com/improve-largest-con
 
 * The fourth issue to resolve, was the need to alert the user that at least one checkbox for each group has to be checked for the form to be submitted. I researched and realized that by using html and css only, this task was not achievable. The use of a jQuery was necessary, so I found [this block of code](https://www.allphptricks.com/submit-form-atleast-one-checkbox-checked/) which I copied and adapted to each one of the checkboxes groups in the form.
 
-![jQuery](/documentation/jquery.jpg)
+```js
+$(document).ready(function(){
+    $("form").submit(function(){
+        if ($('#days .checkboxes div input:checkbox').filter(':checked').length < 1 || $('#game .checkboxes div input:checkbox').filter(':checked').length < 1 || $('#time .checkboxes div input:checkbox').filter(':checked').length < 1){
+        alert("Check at least one box on each section!");
+        return false;
+        }
+    });
+});
+```
 
 * The fifth and last issue I fixed, was the fact that the form submit and reset inputs were not working. I realized after looking for information on Slack, that I had put the three groups of checkboxes plus the First Name, Last Name and Email group in four different form elements. To resolve this issue I changed the form elements for divs and enclosed all groups in the one form.
 
