@@ -121,15 +121,20 @@ $(document).ready(function(){
 
 * In order to make the website more user friendly, I created a thanks page to which the user is brought once the form has been filled out and submitted. From this page the user can wait to be redirected to the home page or navigate to a preffered page manually.
 * Based on the fact that this a front-end only type of website, the information is not being processed in any shape or form however, I wanted to test that before the thanks page implementation, the form was working correctly by sending the data to the Code Institute form dump site utilizing the post method.
-<p>&nbsp;</p>
 
-![Form Test](/documentation/form-data-sent-correctly.jpg)
+
+![Form Test](documentation/form-data-sent-correctly.jpg)
 
 ### HTML, CSS and Accessibility Validators Testing
 
 * I used the [official W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) on all the html files and no errors were found.
-![HTML Validator](/documentation/w3org-html-checker-pass.jpg) <p>&nbsp;</p>
+
+![HTML Validator](documentation/w3org-html-checker-pass.jpg)
+
 * I ran the css file through the [official W3C Jigsaw validator](https://jigsaw.w3.org/css-validator/#validate_by_input) and no issues were found.
-![CSS Validator](/documentation/jigsaw-css-checker-pass.jpg)
-* I used the lighthouse tool in devtools to test color contrast and accesibility and it was marked 100%. <p>&nbsp;</p>
-![Lighthouse Test](/documentation/lighthouse-test.jpg)
+
+![CSS Validator](documentation/jigsaw-css-checker-pass.jpg)
+
+* I used the lighthouse tool in devtools to test color contrast and accesibility and it was marked 100%.
+
+![Lighthouse Test](documentation/lighthouse-test.jpg)
