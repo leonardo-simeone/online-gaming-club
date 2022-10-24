@@ -187,6 +187,11 @@ footer a {
     display: inline;    
 }
 
+#about a {
+    text-decoration: none;
+    color: #222219;
+}
+
 #about p {
     text-align: justify;    
     padding: 30px;
