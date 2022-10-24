@@ -27,7 +27,7 @@ Online Gaming Club offers a selection of different MMO video games to choose fro
 
 * __Welcome Section__
 
-    * In the welcome section, the user is officially introduced to the site with with a compact summary of the site's main purpose and benefits.
+    * In the welcome section, the user is officially introduced to the site with a compact summary of the site's main purpose and benefits.
     * This section is accompanied by an image that transmits a happy and enjoyable environment for video gamers.
 
 ![Welcome](/documentation/welcome-section.JPG)
@@ -48,8 +48,8 @@ Online Gaming Club offers a selection of different MMO video games to choose fro
 
 * __About Us__
 
-    * In the About Us page, a more comprehensive explanation of the ONLINE GAMING CLUB is delivered in a compact paragraph, letting the user know what the club will do to make their gaming experience more enjoyable and team fun oriented and also where in the site and how to join the club.
-    * Also in this section an iframe was including featuring a team up fighting arena in World of Warcraft, by including this iframe, the user has the option to see what they could avail of should they decide to join.
+    * In the About Us page, a more comprehensive explanation of the ONLINE GAMING CLUB is delivered in a compact paragraph, letting the user know what the club offers to make their gaming experience more enjoyable and team fun oriented and also where in the site they can join the club and how to do it.
+    * Also in this section an iframe was included featuring a team up fighting arena in World of Warcraft, by including this iframe, the user has the option to see what they could avail of should they decide to join.
 
 ![About Us](/documentation/about-us-section.JPG)
 
@@ -70,7 +70,7 @@ Online Gaming Club offers a selection of different MMO video games to choose fro
     * In the Join Us page, the user will find a form that they can fill out to join the club.
     * The form contains sub-sections which cover the user's full name, email address, which days and times the user is available to play as well as which games and servers the user prefers to play in.
     * The form was designed to be inviting and an image refering to video gaming technology was used as the form background to complement this approach.
-    * The submit and reset inputs types, feature visual cues to let the user know they are about to click/tap the element.
+    * The submit and reset input types, feature visual cues to let the user know they are about to click/tap the element.
     <p>&nbsp;</p>
 
 ![Join Us](/documentation/join-us-section.JPG)
