@@ -160,6 +160,8 @@ $(document).ready(function(){
 
 * The fifth and last issue I fixed, was the fact that the form submit and reset inputs were not working. I realized after looking for information on Slack, that I had put the three groups of checkboxes plus the First Name, Last Name and Email group in four different form elements. To resolve this issue I changed the form elements for divs and enclosed all groups in the one form.
 
+![Form Fix](documentation/form-fix.png)
+
 ### Form Data Verification
 
 * In order to make the website more user friendly, I created a thanks page to which the user is brought once the form has been filled out and submitted. From this page the user can wait to be redirected to the home page or navigate to a preffered page manually.
