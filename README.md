@@ -114,7 +114,7 @@ IST Notification:
 
 ### Functionality
 
-* I also tested effectiveness and efficiency in the links available in the website site, I made sure that all links work as intended and that the user can navigate and find information in the site easily.
+* I also tested effectiveness and efficiency in the links available in the website, I made sure that all links work as intended and that the user can navigate and find information in the site easily.
 
 ![Links Test](documentation/links-test.png)
 
