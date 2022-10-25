@@ -174,7 +174,25 @@ $(document).ready(function(){
 
 * I used the [official W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) on all the html files and no errors were found.
 
-![HTML Validator](documentation/w3org-html-checker-pass.jpg)
+__Index__
+
+![HTML Validator Index](documentation/w3org-html-checker-index.jpg)
+
+__About Us__
+
+![HTML Validator About Us](documentation/w3org-html-checker-about-us.jpg)
+
+__Timetable__
+
+![HTML Validator Timetable](documentation/w3org-html-checker-timetable.jpg)
+
+__Join Us__
+
+![HTML Validator Join Us](documentation/w3org-html-checker-join-us.jpg)
+
+__Thanks__
+
+![HTML Validator Thanks](documentation/w3org-html-checker-thanks.jpg)
 
 * I ran the css file through the [official W3C Jigsaw validator](https://jigsaw.w3.org/css-validator/#validate_by_input) and no issues were found.
 
