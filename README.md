@@ -102,12 +102,30 @@ IST Notification:
 
 ## Testing
 
-* The first thing I manually tested numerous times was responsiveness utilizing Chrome as the main browser, I made sure that the site adapts well for different screen sizes. I used devtools not only for the developing process but also for the screen size testing. Also different devices were used for the porpuse of testing, such as mobiles and tablets and the [Am I Responsive](https://ui.dev/amiresponsive?url=https://leonardo-simeone.github.io/online-gaming-club/index.html) website was used as well to test responsiveness.
+### Responsiveness
+
+* The first thing I manually tested numerous times was responsiveness utilizing Chrome as the main browser, I made sure that the site adapts well for different screen sizes. I used devtools not only for the developing process but also for the screen size testing.
+
+![DevTools Test](documentation/responsiveness-test-dev-tools.png)
+
+* The [Am I Responsive](https://ui.dev/amiresponsive?url=https://leonardo-simeone.github.io/online-gaming-club/index.html) website was used as well to test responsiveness.
+
+![Am I Responsive Test](documentation/am-i-responsive.jpg)
+
+### Functionality
+
 * I also tested effectiveness and efficiency in the links available in the website site, I made sure that all links work as intended and that the user can navigate and find information in the site easily.
-* I tested compatibility and functionality across different browsers. I used Chrome, Edge and Firefox, and in every single one of them the website works and responds well.
-![Edge Firefox Test](documentation/edge-firefox.png)
+
+![Links Test](documentation/links-test.png)
+
 * I made sure that in the case that the user fails to input necessary information in the form, a relevant message shows indicating what the missing information is.
-* Once the site was deployed, I also asked friends and family to check it out and navigate through it, including filling out the form as they wished. This way I could put it to the test from a third party standpoint.
+
+![User Fail Test](documentation/user-fail-test.png)
+
+### Browsers Compatibility
+
+* I tested compatibility and functionality across different browsers. I used Chrome, Edge and Firefox, and in every single one of them the website works and responds well.
+![Chrome Edge Firefox Test](documentation/chrome-edge-firefox.png)
 
 ### Bugs
 
@@ -115,7 +133,7 @@ IST Notification:
 
 ![W3C Warning](documentation/html-checker-warning.jpg)
 
-* The second issue I found while testing with the lighthouse tool was that the performance indicator was too low.
+* The second issue I found while testing with the lighthouse tool was that the performance indicator on the homepage for mobile was too low.
 
 ![Low Performance Metrics](documentation/lighthouse-test-one-done.jpg)
 
