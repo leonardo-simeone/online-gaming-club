@@ -267,3 +267,23 @@ In order to make a local copy of this project, you can clone it. In your IDE Ter
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/leonardo-simeone/online-gaming-club)
+
+## Credits
+
+__Content__
+
+* The knowledge applied in the use of flexbox, I learned from [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox). By using flexbox I was able to position elements in my layout a lot easier than with float.
+* The original code to make the video iframe responsive, I took from [css-tricks.com](https://css-tricks.com/fluid-width-video/) which I modified later to meet my needs.
+* The original code to make at least one checkbox in each group required, I took from [allphptricks.com](https://www.allphptricks.com/submit-form-atleast-one-checkbox-checked/) which I also modified to meet my needs.
+* The icons I used in the footer and the headings, I took from [Fontawesome](https://fontawesome.com/search?q=game&o=r&m=free)
+* The inspiration for the First Name, Last Name and Email inputs of the form, as well as the overlay on the hero image, I took from the [Love Running](https://leonardo-simeone.github.io/love-running/singup.html) project.
+* I used several Slack channels to find out information on different topics. 
+
+__Media__
+
+* To wireframe the project, I used [Whimsical](https://whimsical.com/wireframes).
+* To choose fonts pairing, I used [Heyreliable](https://heyreliable.com/ultimate-google-font-pairings/)
+* To choose the colors for the site, I used [ColorSpace](https://mycolor.space/?hex=%23222219&sub=1)
+* The images I used across the site, I took from [Pexels.com](https://www.pexels.com/search/pc%20gaming/) and from [Wallpaperaccess.com](https://wallpaperaccess.com/world-of-warcraft-logo).
+* The iframe video, I took from the [GamesGround](https://www.youtube.com/channel/UCHKOktRMLNdhRSqL_DWwgKA) YouTube channel which I own.
+* I used [Adobe Photoshop](https://www.adobe.com/ie/products/photoshop.html) to resize and group images together into one.
