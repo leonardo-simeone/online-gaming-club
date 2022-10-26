@@ -198,7 +198,7 @@ __Thanks__
 
 ![CSS Validator](documentation/jigsaw-css-checker-pass.jpg)
 
-* I used the lighthouse tool in devtools on each page for mobile and desktop to test color contrast and accessibility and they were marked 100%, except for the thanks page, which was marked 90%.
+* I used the lighthouse tool in devtools on each page for mobile and desktop to test color contrast and accessibility and they were marked 100%.
 
  #### Mobile:
     
@@ -218,10 +218,6 @@ __Join Us__
 
 ![Lighthouse Mobile Test Join Us](documentation/lighthouse-mobile-test-join-us.jpg)
 
-__Thanks__
-
-![Lighthouse Mobile Test Thanks](documentation/lighthouse-mobile-test-thanks.jpg)
-
 #### Desktop:
 
 __Index__
@@ -239,10 +235,6 @@ __Timetable__
 __Join Us__
 
 ![Lighthouse Desktop Test Join Us](documentation/lighthouse-desktop-test-join-us.jpg)
-
-__Thanks__
-
-![Lighthouse Desktop Test Thanks](documentation/lighthouse-desktop-test-thanks.jpg)
 
 ## Deployment
 
