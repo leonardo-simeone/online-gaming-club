@@ -100,6 +100,13 @@ IST Notification:
 
 ![Join Us](documentation/join-us-section.jpg)
 
+* __Thanks__
+
+    * The thanks page was creted with the intention of thanking the user for joining the club, also to let them know that their form was correctly submitted and that they will be redirected back to homepage in ten seconds.
+    * The user can manually navigate to any of the pages or social media links available in the site from the thanks page should they want to, given this page contains the exact same nav menu and footer as the rest of the pages on the site.
+
+![Thanks](documentation/thanks.jpg)
+
 ## Testing
 
 ### Responsiveness
