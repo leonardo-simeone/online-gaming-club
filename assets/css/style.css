@@ -43,7 +43,7 @@ h1, h2, h3 {
 #menu li {
     list-style-type: none;
     display: inline;
-    background-color: #00C9B0; /* twisted spot Palette */
+    background-color: #00C9B0; /* twisted spot palette */
     border-radius: 5px;
     padding: 5px;
     margin-left: 5px;   
@@ -54,7 +54,7 @@ h1, h2, h3 {
 }
 
 #menu ul li:hover {    
-    background-color: #F1EAE2;
+    background-color: #F1EAE2; /* small switch palette */
 }
 
 #menu a {
