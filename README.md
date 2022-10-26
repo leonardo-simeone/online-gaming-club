@@ -132,6 +132,7 @@ IST Notification:
 ### Browsers Compatibility
 
 * I tested compatibility and functionality across different browsers. I used Chrome, Edge and Firefox, and in every single one of them the website works and responds well.
+
 ![Chrome Edge Firefox Test](documentation/chrome-edge-firefox.png)
 
 ### Bugs
@@ -150,7 +151,23 @@ When I researched in [css-tricks.com](https://css-tricks.com/improve-largest-con
 
 * The third issue I encountered was making the iframe responsive. I reasearched about "how to make a video iframe responsive" and I found in [css-tricks.com](https://css-tricks.com/fluid-width-video/) a snippet of code which I copied and adapted to my needs to resolve the issue.
 
-![Responsive iframe](documentation/video-iframe-aspect-ratio.jpg)
+```css
+.video-wrapper {
+    position: relative;
+    max-width: 900px;
+    height: 450px;
+    margin: 0 auto 2%;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+ }
+```
 
 * The fourth issue to resolve, was the need to alert the user that at least one checkbox for each group has to be checked for the form to be submitted. I researched and realized that by using html and css only, this task was not achievable. The use of a jQuery was necessary, so I found [this block of code](https://www.allphptricks.com/submit-form-atleast-one-checkbox-checked/) which I copied and adapted to each one of the checkboxes groups in the form.
 
