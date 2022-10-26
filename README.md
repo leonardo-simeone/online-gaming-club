@@ -111,7 +111,7 @@ IST Notification:
 
 ### Responsiveness
 
-* The first thing I manually tested numerous times was responsiveness down to 320px wide, utilizing Chrome as the main browser, I made sure that the site adapts well for different screen sizes. I used devtools not only for the developing process but also for the screen size testing.
+* The first thing I manually tested numerous times was responsiveness down to 320px wide, utilizing Chrome as the main browser, I made sure that the site adapts well for different screen sizes such as 320px, 480px, 768px, 1024px, 1470px and beyond. I used devtools not only for the developing process but also for the screen size testing.
 
 ![DevTools Test](documentation/responsiveness-test-dev-tools.png)
 
