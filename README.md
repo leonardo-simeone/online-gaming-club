@@ -1,10 +1,10 @@
 # ONLINE GAMING CLUB
 
-Online Gaming Club is a website that seeks to provide a service based on the needs and wants of online video gamers around the world, that would like to join a community where they can enjoy comradery while playing MMO video games they like and in the regions and times that suit them. Gamers quite often find themselves strugling to coordinate times with their own gaming partners, such as their own friends and family given that life gets in the way, whether it's work, school or extra curricular activities, more often than not, one or several things happen to be keeping players from virtually gathering in groups and game away.
+Online Gaming Club is a website that seeks to provide a service based on the needs and wants of online video gamers around the world, that would like to join a community where they can enjoy comradery while playing MMO video games they like and in the regions and times that suit them. Gamers quite often find themselves struggling to coordinate times with their own gaming partners, such as their own friends and family given that life gets in the way, whether it's work, school or extra-curricular activities, more often than not, one or several things happen to be keeping players from virtually gathering in groups and game away.
 
-Online Gaming Club offers a selection of different MMO video games to choose from, as well as a variety of servers and times from which users can pick and choose according to their own individual needs. Also the user can find a showcase of images and video that motivate online video gamers to join the club. Once a user has selected their preferences and fully filled out the form provided then they will be assigned to a gaming team accordingly.
+Online Gaming Club offers a selection of different MMO video games to choose from, as well as a variety of servers and times from which users can pick and choose according to their own individual needs. Also, the user can find a showcase of images and video that motivate online video gamers to join the club. Once a user has selected their preferences and fully filled out the form provided then they will be assigned to a gaming team accordingly.
 
-![Responsive Mockup](documentation/am-i-responsive.jpg)
+![Responsive Mock-up](documentation/am-i-responsive.jpg)
 
 ## UX
 
@@ -36,11 +36,11 @@ To wireframe the website I used [Whimsical](https://whimsical.com/wireframes).
 
 * __Navigation Bar__
 
-    * The navegation bar is located at the top of the screen and it's centered both vertically and horizontally. It has the logo or club name: ONLINE GAMING CLUB on the left side and the navigation links on the right side.
-    * The logo in any of the pages links back to home as well as the navegation link: Home, and the rest of the navigation links: Games, About Us, TimeTable and Join Us link to different pages of the same site.
+    * The navigation bar is located at the top of the screen and it's centered both vertically and horizontally. It has the logo or club name: ONLINE GAMING CLUB on the left side and the navigation links on the right side.
+    * The logo in any of the pages links back to home as well as the navigation link: Home, and the rest of the navigation links: Games, About Us, Timetable and Join Us link to different pages of the same site.
     * The navigation bar was designed to make it easy to read and with a combination of colors that are easy to the eye and create good contrast.
     * All links in the navigation menu have visual cues regarding where the user currently is on the site, as well as which links are they about to click on, making it easier to navigate.
-    * The navegation menu is identical across all the pages on the site which provides quick navigation learning.
+    * The navigation menu is identical across all the pages on the site which provides quick navigation learning.
 
 ![Nav Bar](documentation/nav-bar.jpg)
 
@@ -68,7 +68,7 @@ To wireframe the website I used [Whimsical](https://whimsical.com/wireframes).
 * __Footer__
 
     * The footer comprises a simple paragraph with a call to action and an unordered list with all the social media links for the site.
-    * The footer the same as the navegation bar is the same across all pages on the site to allow for easy navigation and simetry across the website.
+    * The footer the same as the navigation bar is the same across all pages on the site to allow for easy navigation and symmetry across the website.
     
 ![Footer](documentation/footer-section.jpg)
 
@@ -81,9 +81,9 @@ To wireframe the website I used [Whimsical](https://whimsical.com/wireframes).
 
 * __TimeTable__
 
-    * The TimeTable page was designed to inform the user what servers and time frames are the games in the club played in.
+    * The Timetable page was designed to inform the user what servers and time frames are the games in the club played in.
     * This timetable indicates the user in detail how, the games, days, times and servers are structured in the gaming groups already formed.
-    * It also informs the user that all times are based on IST (irish standard time).    
+    * It also informs the user that all times are based on IST (Irish Standard Time).   
 
 ![TimeTable](documentation/timetable-section.jpg)
 
@@ -95,14 +95,14 @@ IST Notification:
 
     * In the Join Us page, the user will find a form that they can fill out to join the club.
     * The form contains sub-sections which cover the user's full name, email address, which days and times the user is available to play as well as which games and servers the user prefers to play in.
-    * The form was designed to be inviting and an image refering to video gaming technology was used as the form background to complement this approach.
+    * The form was designed to be inviting and an image referring to video gaming technology was used as the form background to complement this approach.
     * The submit and reset input types, feature visual cues to let the user know they are about to click/tap the element.
 
 ![Join Us](documentation/join-us-section.jpg)
 
 * __Thanks__
 
-    * The thanks page was creted with the intention of thanking the user for joining the club, also to let them know that their form was correctly submitted and that they will be redirected back to homepage in ten seconds.
+    * The thanks page was created with the intention of thanking the user for joining the club, also to let them know that their form was correctly submitted and that they will be redirected back to homepage in ten seconds.
     * The user can manually navigate to any of the pages or social media links available in the site from the thanks page should they want to, given this page contains the exact same nav menu and footer as the rest of the pages on the site.
 
 ![Thanks](documentation/thanks.jpg)
@@ -145,11 +145,11 @@ IST Notification:
 
 ![Low Performance Metrics](documentation/lighthouse-test-one-done.jpg)
 
-When I researched in [css-tricks.com](https://css-tricks.com/improve-largest-contentful-paint-lcp-on-your-website-with-ease/) the posible reason behind this occurence, I found out that the images I used were too heavy. I decided to compress the jpg files into smaller jpg files using [tinypng.com](https://tinypng.com/) and then I converted the smaller jpg images into webp files using [cloudconvert.com](https://cloudconvert.com/) which in turn made them even smaller without losing display quality. The performance indicator improved significantly.
+When I researched in [css-tricks.com](https://css-tricks.com/improve-largest-contentful-paint-lcp-on-your-website-with-ease/) the possible reason behind this occurrence, I found out that the images I used were too heavy. I decided to compress the jpg files into smaller jpg files using [tinypng.com](https://tinypng.com/) and then I converted the smaller jpg images into webp files using [cloudconvert.com](https://cloudconvert.com/) which in turn made them even smaller without losing display quality. The performance indicator improved significantly.
 
 ![Better Performance Metrics](documentation/images-compression-test.png)
 
-* The third issue I encountered was making the iframe responsive. I reasearched about "how to make a video iframe responsive" and I found in [css-tricks.com](https://css-tricks.com/fluid-width-video/) a snippet of code which I copied and adapted to my needs to resolve the issue.
+* The third issue I encountered was making the iframe responsive. I researched about "how to make a video iframe responsive" and I found in [css-tricks.com](https://css-tricks.com/fluid-width-video/) a snippet of code which I copied and adapted to my needs to resolve the issue.
 
 ```css
 .video-wrapper {
@@ -182,13 +182,13 @@ $(document).ready(function(){
 });
 ```
 
-* The fifth and last issue I fixed, was the fact that the form submit and reset inputs were not working. I realized after looking for information on Slack, that I had put the three groups of checkboxes plus the First Name, Last Name and Email group in four different form elements. To resolve this issue I changed the form elements for divs and enclosed all groups in the one form.
+* The fifth and last issue I fixed, was the fact that the form submit and reset inputs were not working. I realized after looking for information on Slack, that I had put the three groups of checkboxes plus the First Name, Last Name and Email group in four different form elements. To resolve this issue, I changed the form elements for divs and enclosed all groups in the one form.
 
 ![Form Fix](documentation/form-fix.png)
 
 ### Form Data Verification
 
-* In order to make the website more user friendly, I created a thanks page to which the user is brought once the form has been filled out and submitted. From this page the user can wait to be redirected to the home page or navigate to a preffered page manually.
+* In order to make the website more user friendly, I created a thanks page to which the user is brought once the form has been filled out and submitted. From this page the user can wait to be redirected to the home page or navigate to a preferred page manually.
 * Based on the fact that this a front-end only type of website, the information is not being processed in any shape or form however, I wanted to test that before the thanks page implementation, the form was working correctly by sending the data to the Code Institute form dump site utilizing the post method.
 
 
@@ -264,8 +264,8 @@ __Join Us__
 
 * I deployed the website using GitHub pages. The steps to do so, were the following:
     * In the GitHub repository project menu, click on the cog wheel marked as Settings.
-    * Once in settings, on the left hand side of the screen click on the Pages tab.
-    * In the Pages tab select "Deploy from a branch" in the drop down menu from "Source".
+    * Once in settings, on the left-hand side of the screen click on the Pages tab.
+    * In the Pages tab select "Deploy from a branch" in the drop-down menu from "Source".
     * Right under the Source dropdown menu there is the "Branch" menu, from it select "Main" and "/(root)".
     * Click on save and refresh the page after a few minutes to give GitHub time to process the deployment.
     * At the top you will see the generated link to "Visit site" already deployed.
