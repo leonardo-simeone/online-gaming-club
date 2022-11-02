@@ -118,8 +118,6 @@ IST Notification:
 * [Whimsical](https://whimsical.com/wireframes): It was used to wireframe the initial idea/mock-up of the project.
 * [Adobe Photoshop](https://www.adobe.com/ie/products/photoshop.html): It was used to resize images as well as framing several images together into one.
 
-
-
 ## Testing
 
 ### Responsiveness
@@ -203,7 +201,6 @@ $(document).ready(function(){
 
 * In order to make the website more user friendly, I created a thanks page to which the user is brought once the form has been filled out and submitted. From this page the user can wait to be redirected to the home page or navigate to a preferred page manually.
 * Based on the fact that this a front-end only type of website, the information is not being processed in any shape or form however, I wanted to test that before the thanks page implementation, the form was working correctly by sending the data to the Code Institute form dump site utilizing the post method.
-
 
 ![Form Test](documentation/form-data-sent-correctly.jpg)
 
