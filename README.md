@@ -107,6 +107,19 @@ IST Notification:
 
 ![Thanks](documentation/thanks.jpg)
 
+## Tools and Technologies
+
+* HTML: It was used to structure the content of the site both semantically and visually.
+* CSS: It was used for responsiveness, styling and layouts.
+* [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox): It was used for improved responsiveness and more control while positioning elements instead of floats.
+* [Git](https://git-scm.com/): It was used for version control throughout the project developement process.
+* [GitHub](https://github.com/): It was used as a secure cloud-based files storage for my code and repositories in general. Also as a deployment platform via GitHub Pages.
+* [Gitpod](https://www.gitpod.io/): It was used as a cloud-based IDE to develope the site.
+* [Whimsical](https://whimsical.com/wireframes): It was used to wireframe the initial idea/mock-up of the project.
+* [Adobe Photoshop](https://www.adobe.com/ie/products/photoshop.html): It was used to resize images as well as framing several images together into one.
+
+
+
 ## Testing
 
 ### Responsiveness
